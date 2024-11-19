@@ -254,6 +254,11 @@ footer a {
   display: block;
 }
 
+.footer-content {
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
 .contacts {
   max-width: 370px;
 }
@@ -288,20 +293,11 @@ footer a {
   background-image: url(../images/icon-email.svg);
 }
 
-.footer-content {
-  align-items: flex-start;
-  justify-content: space-between;
-}
-
-.footer-content nav {
-  min-width: 480px;
-}
-
 .footer-content nav > ul {
   font-size: 14px;
   line-height: 27px;
   column-count: 2;
-  padding-inline-start: 70px;
+  column-gap: 160px;
 }
 
 .footer-content nav a {
